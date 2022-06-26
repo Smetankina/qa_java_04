@@ -43,6 +43,14 @@ public class HW_75_Worker {
 
     }
 
+    public double SumSalary(HW_75_Worker [] workers){
+        double sum = 0;
+        for(int i =0; i<workers.length; i++){
+            sum+=workers[i].getSalary();
+        }
+        return sum;
+    }
+
 }
 
 

@@ -13,9 +13,13 @@ public class Main {
         };
         System.out.println(Kristina.getSalary(months));
 
+
+
         Manager manager = new Manager("Anna", 12, 'W', 100, 6);
 
         System.out.println(manager.getSalary(months));
+
+
 
 
 
